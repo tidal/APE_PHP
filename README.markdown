@@ -4,10 +4,10 @@ APE_PHP
 Lightweight PHP Client Library to Connect to an APE (APE Ajax Push Engine) server.
 Fully unit tested with PHPUnit.
 
-USAGE
+API
 ------------------------
 see:
-http://tidal.github.com/APE_PHP/docs/api/annotated.html
+[http://tidal.github.com/APE_PHP/docs/api/annotated.html](http://tidal.github.com/APE_PHP/docs/api/annotated.html)
 
 USAGE
 ------------------------
