@@ -6,6 +6,11 @@ Fully unit tested with PHPUnit.
 
 USAGE
 ------------------------
+see:
+http://tidal.github.com/APE_PHP/docs/api/annotated.html
+
+USAGE
+------------------------
 
 This example is meant to be used as a replacement for the PHP code
 found in the APE_JSF Controller demo.
