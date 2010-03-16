@@ -35,8 +35,8 @@ class ApeFileConnection extends ApeAbstractConnection {
 	
 	protected function doSendRequest(ApeRequest $request){
 		$data = $request->getUrlString();
-		try {	
-			$res = file_get_contents($this->getUrl().$data);
+		try {	 
+			$res = @file_get_contents($this->getUrl().$data);
 		}catch(Exception $e){ 
 			throw new ApeException('Could not create Response: '.$e->getMessage());
 		}
