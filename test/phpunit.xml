@@ -2,7 +2,7 @@
 
 <phpunit backupGlobals="false">
   <php>
-    <const name="APE_PHP_CONNECTION_HOST" value="ape.esfex.com"/>
+    <const name="APE_PHP_CONNECTION_HOST" value="localhost"/>
     <const name="APE_PHP_CONNECTION_PORT" value="6969"/>
     <const name="APE_PHP_CONNECTION_PROTOCOL" value="http"/>
     <const name="APE_PHP_CONNECTION_FALSE_TEST_PORT" value="9999999999"/>
