@@ -101,7 +101,8 @@ class ApeResponse {
 	protected static function decodeResponse($rawResponse){
 		if(trim((string)$rawResponse) != ''){
 			try{
-				$response = array_shift(json_decode($rawResponse));
+				$raw      = json_decode($rawResponse);
+				$response = array_shift($raw);
 			}			
 			catch(Exception $e){
 				throw new ApeException('could not decode raw response'); 

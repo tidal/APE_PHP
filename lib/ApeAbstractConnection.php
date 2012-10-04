@@ -116,15 +116,4 @@ abstract class ApeAbstractConnection {
 	 */	    
     abstract protected function doSendRequest(ApeRequest $request);
 
-	/**
-	 * Checks wether connection service is available.
-	 * Must be implemented by concrete classes.
-	 *
-	 * @abstract
-	 * @static
-	 * @access public
-	 * @return boolean connection service is available?
-	 * @since  Available since release 0.1.0.
-	 */	    
-    abstract public static function available();
 } 
